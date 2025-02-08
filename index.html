@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Technology</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .dark-mode {
+            background-color: #1a202c;
+            color: #cbd5e0;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+    <header class="bg-blue-800 text-white p-4 shadow">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">M Technology</h1>
+            <button class="block lg:hidden px-2 py-1 border rounded text-white border-white hover:text-blue-800 hover:bg-white" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="hidden lg:flex lg:items-center lg:w-auto w-full" id="nav-content">
+             <ul class="lg:flex items-center justify-between text-base text-white pt-4 lg:pt-0">
+              <li><a href="#home" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-blue-400">Home</a></li>
+              <li><a href="#about" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-blue-400">About</a></li>
+              <li><a href="#services" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-blue-400">Services</a></li>
+              <li><a href="#blog" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-blue-400">Blog</a></li>
+              <li><a href="#contact" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-blue-400">Contact</a></li>
+              <button class="ml-4 px-2 py-1 border rounded text-white border-white hover:text-blue-800 hover:bg-white" id="toggle-dark-mode">
+                  <i class="fas fa-moon"></i>
+              </button>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto p-4">
+        <section id="home" class="my-16">
+            <h2 class="text-3xl font-semibold my-10">Home</h2>
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2">
+                    <p>Welcome to M Technology, your go-to source for the latest in technology news and services. We are dedicated to providing you with the best in tech solutions, with a focus on reliability, customer service, and innovation.</p>
+                    <p>Founded in 2025, M Technology has come a long way from its beginnings. When we first started out, our passion for technology drove us to start our own business. We hope you enjoy our products and services as much as we enjoy offering them to you.</p>
+                </div>
+                <div class="lg:w-1/2 mt-4 lg:mt-0 lg:ml-4">
+                    <img src="https://plus.unsplash.com/premium_photo-1687463804174-c74e82681ac9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVjaG9ubG9neXxlbnwwfHwwfHx8MA%3D%3D" alt="Company Image" class="rounded shadow-lg">
+                </div>
+            </div>
+        </section>
+        <section id="about" class="my-16">
+            <h2 class="text-2xl font-semibold">About Us</h2>
+            <p>Learn more about our mission and the team behind M Technology.</p>
+        </section>
+        <section id="services" class="my-16">
+            <h2 class="text-2xl font-semibold">Our Services</h2>
+            <p>Discover the wide range of services we offer to help you stay ahead in the tech world.</p>
+        </section>
+        <section id="team" class="my-16">
+            <h2 class="text-3xl font-semibold my-10">Our Team</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h3 class="text-xl font-bold">Mugahed Motaz</h3>
+                    <p class="text-sm text-gray-600">CEO</p>
+                    <p class="text-gray-700">Mugahed is the CEO of M Technology and has over 2 years of experience in the tech industry.</p>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="my-16">
+            <h2 class="text-3xl font-semibold my-10">Blog</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h3 class="text-xl font-bold">Blog Post 1</h3>
+                    <p class="text-sm text-gray-600">Date: January 2025</p>
+                    <p class="text-gray-700">This blog post discusses the latest trends in technology and how they are shaping the future.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Read more</a>
+                </div>
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h3 class="text-xl font-bold">Blog Post 2</h3>
+                    <p class="text-sm text-gray-600">Date: February 2025</p>
+                    <p class="text-gray-700">This blog post explores the benefits of cloud computing and how it can help businesses grow.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Read more</a>
+                </div>
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h3 class="text-xl font-bold">Blog Post 3</h3>
+                    <p class="text-sm text-gray-600">Date: March 2025</p>
+                    <p class="text-gray-700">This blog post provides tips and tricks for improving your software development process.</p>
+                    <a href="#" class="text-blue-500 hover:underline">Read more</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="my-16">
+            <h2 class="text-3xl font-semibold my-10">Contact Us</h2>
+            <p>Get in touch with us for any inquiries or support.</p>
+            <form class="bg-gray-100 shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label class="block text-gray-800 text-sm font-bold mb-2" for="name">
+                        <i class="fas fa-user"></i> Name
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-800 text-sm font-bold mb-2" for="email">
+                        <i class="fas fa-envelope"></i> Email
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your email">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-800 text-sm font-bold mb-2" for="message">
+                        <i class="fas fa-comment"></i> Message
+                    </label>
+                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Your message"></textarea>
+                </div>
+                <div class="flex items-center justify-between">
+                    <button class="bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </section>
+        <section id="works" class="my-16">
+            <h2 class="text-3xl font-semibold my-10">Previous Works</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h3 class="text-xl font-bold">Project 1</h3>
+                    <p class="text-sm text-gray-600">Date: January 2025</p>
+                    <p class="text-gray-700">Description: This project involved developing a comprehensive e-commerce platform with advanced features and a user-friendly interface.</p>
+                    <a href="#" class="text-blue-500 hover:underline">More details</a>
+                </div>
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h3 class="text-xl font-bold">Project 2</h3>
+                    <p class="text-sm text-gray-600">Date: February 2025</p>
+                    <p class="text-gray-700">Description: This project focused on creating a mobile application for real-time communication and collaboration among team members.</p>
+                    <a href="#" class="text-blue-500 hover:underline">More details</a>
+                </div>
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <h3 class="text-xl font-bold">Project 3</h3>
+                    <p class="text-sm text-gray-600">Date: March 2025</p>
+                    <p class="text-gray-700">Description: This project involved designing and implementing a cloud-based solution for data storage and management.</p>
+                    <a href="#" class="text-blue-500 hover:underline">More details</a>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials" class="my-16">
+            <h2 class="text-3xl font-semibold my-10">Customer Testimonials</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <p class="text-gray-700">"M Technology provided us with excellent service and support. Their solutions have greatly improved our business operations."</p>
+                    <p class="text-sm text-gray-600">- Customer 1</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <p class="text-gray-700">"The team at M Technology is highly skilled and professional. We are very satisfied with the results."</p>
+                    <p class="text-sm text-gray-600">- Customer 2</p>
+                </div>
+                <div class="bg-gray-100 p-4 rounded shadow">
+                    <p class="text-gray-700">"Their innovative solutions have helped us stay ahead in the tech world. Highly recommended!"</p>
+                    <p class="text-sm text-gray-600">- Customer 3</p>
+                </div>
+            </div>
+        </section>
+        <section id="faq" class="my-16">
+            <h2 class="text-3xl font-semibold my-10">Frequently Asked Questions</h2>
+            <div class="bg-gray-100 p-4 rounded shadow">
+                <h3 class="text-xl font-bold">What services do you offer?</h3>
+                <p class="text-gray-700">We offer a wide range of tech solutions including software development, cloud computing, and IT consulting.</p>
+            </div>
+            <div class="bg-gray-100 p-4 rounded shadow mt-4">
+                <h3 class="text-xl font-bold">How can I contact you?</h3>
+                <p class="text-gray-700">You can contact us through the contact form on our website or by emailing us at info@mtechnology.com.</p>
+            </div>
+            <div class="bg-gray-100 p-4 rounded shadow mt-4">
+                <h3 class="text-xl font-bold">Do you offer support?</h3>
+                <p class="text-gray-700">Yes, we offer 24/7 support to all our clients. You can reach out to us anytime for assistance.</p>
+            </div>
+        </section>
+        <section id="newsletter" class="my-16">
+            <h2 class="text-3xl font-semibold my-10">Subscribe to Our Newsletter</h2>
+            <form class="bg-gray-100 shadow-md rounded px-8 pt-6 pb-8 mb-4 max-w-lg mx-auto">
+                <div class="mb-4">
+                    <label class="block text-gray-800 text-sm font-bold mb-2" for="email">
+                        <i class="fas fa-envelope"></i> Email
+                    </label>
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your email">
+                </div>
+                <div class="flex items-center justify-between">
+                    <button class="bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                        Subscribe
+                    </button>
+                </div>
+            </form>
+        </section>
+        <section id="map" class="my-16">
+            <h2 class="text-3xl font-semibold my-10">Our Location</h2>
+            <div class="bg-gray-100 p-4 rounded shadow">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019287758065!2d144.9630579153168!3d-37.81410797975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d1b6e6e1e0e!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1614311234567!5m2!1sen!2sau" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-blue-800 text-white p-4 text-center">
+        <div class="flex justify-center space-x-4 mb-4">
+            <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 M Technology. All rights reserved.</p>
+    </footer>
+    <script>
+        document.getElementById('nav-toggle').onclick = function() {
+            document.getElementById('nav-content').classList.toggle('hidden');
+        }
+        document.getElementById('toggle-dark-mode').onclick = function() {
+            document.body.classList.toggle('dark-mode');
+        }
+    </script>
+</body>
+</html>
